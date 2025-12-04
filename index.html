@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Kata-Chat</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- LOGIN PAGE -->
+  <div class="login-box" id="loginBox">
+    <h2 class="title">Kata-Chat</h2>
+    <p class="subtitle">Login to continue</p>
+
+    <div class="input-group">
+      <input type="text" id="username" placeholder="Username">
+    </div>
+
+    <div class="input-group">
+      <input type="password" id="password" placeholder="Password">
+    </div>
+
+    <button class="login-btn" onclick="login()">Login</button>
+  </div>
+
+  <!-- CHAT PAGE -->
+  <div class="chat-box" id="chatBox">
+
+    <div class="chat-header">
+      <span>Kata-Chat Room</span>
+      <span id="activeUsers">Active: 1</span>
+    </div>
+
+    <div id="messages"></div>
+
+    <div class="chat-input-container">
+      <input type="text" id="chatInput" placeholder="Type a message...">
+      <button class="send-btn" onclick="sendMessage()">Send</button>
+    </div>
+
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
