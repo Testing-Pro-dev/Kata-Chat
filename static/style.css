@@ -1,0 +1,135 @@
+body {
+  font-family: Arial;
+  background: #0f0f0f;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+/* LOGIN PAGE */
+.login-box {
+  width: 90%;
+  max-width: 380px;
+  margin: 120px auto;
+  padding: 30px;
+  background: #1a1a1a;
+  border-radius: 12px;
+  box-shadow: 0 0 20px #000;
+  display: none;
+  text-align: center;
+}
+
+.title {
+  font-size: 28px;
+  margin-bottom: 5px;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: #bbb;
+}
+
+.input-group input {
+  width: 90%;
+  padding: 12px;
+  margin: 12px 0;
+  background: #111;
+  border: 1px solid #333;
+  color: white;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.login-btn {
+  width: 95%;
+  padding: 12px;
+  margin-top: 15px;
+  background: #006aff;
+  border: none;
+  border-radius: 6px;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+/* CHAT PAGE */
+.chat-box {
+  width: 100%;
+  max-width: 450px;
+  margin: 0 auto;
+  padding: 0;
+  display: none;
+}
+
+.chat-header {
+  background: #101820;
+  padding: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #006aff;
+}
+
+#messages {
+  height: 420px;
+  overflow-y: scroll;
+  background: #0b0b0b;
+  padding: 10px;
+  border-bottom: 2px solid #222;
+}
+
+.msg {
+  padding: 10px;
+  margin: 6px 0;
+  background: #1e1e1e;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+/* Owner special message */
+.owner-msg {
+  background: #002d72 !important; /* dark blue */
+  border-left: 4px solid #0a84ff;
+}
+
+/* Owner badge + verified tick */
+.owner-tag {
+  font-weight: bold;
+  color: #4da3ff;
+}
+
+.verified {
+  color: #1da1f2;
+  font-weight: bold;
+  margin-left: 4px;
+}
+
+/* INPUT */
+.chat-input-container {
+  display: flex;
+  background: #111;
+  padding: 10px;
+  position: sticky;
+  bottom: 0;
+  border-top: 2px solid #006aff;
+}
+
+.chat-input-container input {
+  flex: 1;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  background: #222;
+  color: white;
+  margin-right: 10px;
+  font-size: 15px;
+}
+
+.send-btn {
+  padding: 12px 18px;
+  background: #007bff;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+}
